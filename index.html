@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AtomQuest Goal Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">AtomQuest Hackathon 1.0</p>
+      <h1>Goal Setting &amp; Tracking Portal</h1>
+    </div>
+    <div class="role-switcher">
+      <label for="roleSelect">Role</label>
+      <select id="roleSelect"></select>
+    </div>
+  </header>
+
+  <main>
+    <section class="summary-grid" id="summaryGrid" aria-label="Portal summary"></section>
+
+    <nav class="tabs" aria-label="Primary sections">
+      <button class="tab is-active" data-view="goals">Goals</button>
+      <button class="tab" data-view="checkins">Check-ins</button>
+      <button class="tab" data-view="reports">Reports</button>
+      <button class="tab" data-view="admin">Admin</button>
+    </nav>
+
+    <section id="appView" class="view-shell"></section>
+  </main>
+
+  <template id="emptyStateTemplate">
+    <div class="empty-state">
+      <h2>No records yet</h2>
+      <p>The relevant items for this view will appear here.</p>
+    </div>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
