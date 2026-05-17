@@ -1,6 +1,12 @@
-# AtomQuest Goal Setting & Tracking Portal
+# AtomBergSolution
 
-A self-contained browser demo for the AtomQuest Hackathon 1.0 problem statement.
+A self-contained browser demo for the AtomQuest Hackathon 1.0 Goal Setting & Tracking Portal problem statement.
+
+## Submission links
+
+- Working link: https://priya123nshu.github.io/atomquest-goal-portal/
+- Source code: https://github.com/Priya123nshu/atomquest-goal-portal
+- Architecture PDF: `atombergsolution.pdf`
 
 ## Run
 
